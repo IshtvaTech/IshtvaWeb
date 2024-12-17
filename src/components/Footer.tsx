@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-              TechConsult
+              Ishtva Technologies
             </h3>
             <p className="text-gray-400">
               Transforming businesses through innovative software solutions.
@@ -50,7 +50,7 @@ const Footer = () => {
               <li>123 Business Street</li>
               <li>Tech City, TC 12345</li>
               <li>Phone: (123) 456-7890</li>
-              <li>Email: info@techconsult.com</li>
+              <li>Email: info@ishtva.com</li>
             </ul>
           </div>
         </div>
@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} TechConsult. All rights reserved.
+              © {new Date().getFullYear()} Ishtva Technologies. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <FooterLink href="/privacy">Privacy Policy</FooterLink>
