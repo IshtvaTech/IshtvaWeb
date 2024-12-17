@@ -18,7 +18,14 @@ const Header = () => {
               </span>
             </Link>
           </div>
-
+{/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8">
+            <NavLink href="#home">Home</NavLink>
+            <NavLink href="#services">Services</NavLink>
+            <NavLink href="#testimonials">Testimonials</NavLink>
+            <NavLink href="#contact">Contact</NavLink>
+            
+          </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
