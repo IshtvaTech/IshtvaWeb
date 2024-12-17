@@ -14,7 +14,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                TechConsult
+                Ishtva Technologies
               </span>
             </Link>
           </div>
